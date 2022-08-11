@@ -32,43 +32,36 @@ body {
 }
 
 .container {
-    width: 750px;
+    background-image: url(/images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 258% 70%;
+    width: 700px;
     min-height: 400px;
     background-color: white;
     border-radius: 20px;
     display: flex;
-    padding: 5px;
 }
-
 
 .container .img-svg {
+    background-image: url(/images/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: 95%;
+    background-position: -300% center;
     position: relative;
-}
-
-.container .img-svg .desktop {
-    width: 400px;
-    position: absolute;
-    top: 24px;
-    left: -65px;
-    
-}
-
-.container .img-svg .pattern {
-    position: absolute;
-    bottom: -93px;
-    right: -332px;
 }
 
 .container .img-svg .box {
     position: absolute;
-    top: 128px;
-    left: -135px;
+    top: 162px;
+    left: -98px;
+    width: 50%
 }
 
 .container .content {
-    width: fit-content;
-    padding: 50px;
-    margin-left: 350px ;
+    width: 50%;
+    padding-top: 50px;
+    padding-right: 50px;
 }
 
 .container .content h1 {
@@ -102,22 +95,10 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .attribution { 
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
